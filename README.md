@@ -11,7 +11,7 @@ In the **/challenges** folder, I've added some supplemental challenges for you t
 ## Project Structure
 Visual Studio applications are organized into **solutions** and **projects**. A solution is a collection of projects. A project is a collection of files that are compiled together. Everytime you create a new file with a **main()** function, you will need to create a new project!
 
-You have ALREADY created **solution** called *Assignments*, which contains all your projects.
+You have ALREADY created **solution** called *Assignments*, which contains all your projects. Continue to add projects to this solution for future work (challenges, lecture, ...etc)
 
 ## Creating a Project
 1. Right click on the solution name in the **Solution Explorer** window.
