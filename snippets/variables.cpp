@@ -24,20 +24,4 @@ int main() {
 
     // String variable type (not a primitive type)
     std::string g = "Hello World!";
-    
-    /*
-    ----------------------------------------
-        cout and cin are used to print 
-        and get input from the user
-    ----------------------------------------
-    */
-
-    // cout
-    std::cout << g << std::endl;
-
-    // cin
-    int h;
-    std::cout << "Enter a number: "; // prompt user
-    std::cin >> h; // get user input and store in h
-    std::cout << "You entered: " << h << std::endl; // print h
 }

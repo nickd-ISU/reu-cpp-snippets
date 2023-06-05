@@ -13,7 +13,7 @@ int main() {
     ----------------------------------------
     */
 
-    // for loop
+    // for loop -----------------------------------
     /*
         int i = 0; // initialize
         i < 5; // condition
@@ -23,7 +23,7 @@ int main() {
         std::cout << "i: " << i << std::endl;
     }
 
-    // while loop
+    // while loop ---------------------------------
     /*
         int i = 0; // initialize
         i < 5; // condition
@@ -35,7 +35,7 @@ int main() {
         j++;
     }
 
-    // do-while loop
+    // do-while loop -------------------------------
     /*
         int i = 0; // initialize
         i < 5; // condition

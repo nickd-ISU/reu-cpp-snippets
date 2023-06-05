@@ -38,12 +38,12 @@ int main() {
     int e = 5;
     int f = 2;
 
-    bool equal = e == f; // equal
-    bool notEqual = e != f; // not equal
-    bool greaterThan = e > f; // greater than
-    bool lessThan = e < f; // less than
-    bool greaterThanOrEqual = e >= f; // greater than or equal
-    bool lessThanOrEqual = e <= f; // less than or equal
+    bool equal = e == f; // equals (true if 'e' is equal to 'f')
+    bool notEqual = e != f; // not equal (true if 'e' is not equal to 'f')
+    bool greaterThan = e > f; // greater than (true if 'e' is greater than 'f')
+    bool lessThan = e < f; // less than (true if 'e' is less than 'f')
+    bool greaterThanOrEqual = e >= f; // greater than or equal (true if 'e' is greater than or equal to 'f')
+    bool lessThanOrEqual = e <= f; // less than or equal (true if 'e' is less than or equal to 'f')
 
     std::cout << "equal: " << equal << std::endl;
     std::cout << "notEqual: " << notEqual << std::endl;
