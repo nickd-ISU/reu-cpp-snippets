@@ -8,6 +8,8 @@ Use this repository to refer back to what we learned in the lab. You can copy an
 ## 🚨 Extra Challenges 📝
 In the **/challenges** folder, I've added some supplemental challenges for you to work on. These are not required, but they will help you practice the concepts we've learned in the lab. Use code from the **/snippets** folder to help you solve the problems!
 
+Add a new project to your solution for each new challenge.
+
 # Visual Studio 👨‍💻
 ## Project Structure
 Visual Studio applications are organized into **solutions** and **projects**. A solution is a collection of projects. A project is a collection of files that are compiled together. Everytime you create a new file with a **main()** function, you will need to create a new project!
