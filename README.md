@@ -9,7 +9,7 @@ In the **/challenges** folder, I've added some supplemental challenges for you t
 
 # Visual Studio 👨‍💻
 ## Project Structure
-Visual Studio applications are organized into **solutions** and **projects**. A solution is a collection of projects. A project is a collection of files that are compiled together. Everytime you create a new **main()** function, you will need to create a new project!
+Visual Studio applications are organized into **solutions** and **projects**. A solution is a collection of projects. A project is a collection of files that are compiled together. Everytime you create a new file with a **main()** function, you will need to create a new project!
 
 You have ALREADY created **solution** called *Assignments*, which contains all your projects.
 
