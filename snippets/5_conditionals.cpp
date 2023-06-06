@@ -15,16 +15,16 @@ int main() {
         std::cout << "a is positive" << std::endl;
     }
 
-    // if-else statement
-    int b = 5;
+    // if-else statement ---------------------------------------
+    int b = -1;
     if(b > 0) {
         std::cout << "b is positive" << std::endl;
     } else {
         std::cout << "b is not positive" << std::endl;
     }
 
-    // if-else if-else statement
-    int c = 5;
+    // if-else if-else statement -------------------------------
+    int c = 0;
     if(c > 0) {
         std::cout << "c is positive" << std::endl;
     } else if(c < 0) {
@@ -33,7 +33,7 @@ int main() {
         std::cout << "c is zero" << std::endl;
     }
 
-    // nested if statements
+    // nested if statements ------------------------------------
     int d = 5;
     if(d > 0) {
         if(d > 10) {
@@ -45,7 +45,7 @@ int main() {
         std::cout << "d is not positive" << std::endl;
     }
 
-    // if statement with arrays
+    // if statement with arrays --------------------------------
     int e[5] = {1, 2, 3, 4, 5};
     if(e[0] == 1) {
         std::cout << "e[0] is 1" << std::endl;

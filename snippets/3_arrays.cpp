@@ -24,7 +24,7 @@ int main() {
     a[3] = 0;
     a[4] = 0;
 
-    // Print array values
+    // Print array values by accessing them using their index
     std::cout << "a[0]: " << a[0] << std::endl;
     std::cout << "a[1]: " << a[1] << std::endl;
     std::cout << "a[2]: " << a[2] << std::endl;
