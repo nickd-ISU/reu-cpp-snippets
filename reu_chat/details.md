@@ -5,11 +5,12 @@ Author: Nicholas Matthews
 Many projects at the VRAC involve multiple computers and applications that work together as a system. The C6 is a prime example of several computers communicating over a network. Within these, software libraries and application also need be cohesive and reliable. In this mini project, you will be adding a component to a chat server system.
 
 ## Description
-A MySQL database server and Node.js Express API have been set up on Nick’s PC in the VRAC. The database contains a single table of chat messages from REU students, and the Node.js API provides an easy way of programmatically fetching and adding chat messages into the database. The only this missing is a client-side application for sending and recieving chats. The architecture for the system is shown below…
+A MySQL database server and Node.js Express API have been set up on Nick’s in the VRAC. The database contains a single table of chat messages from REU students, and the Node.js API provides an easy way of programmatically fetching and adding chat messages into the database. The only this missing is a client-side application for sending and recieving chats. The architecture for the system is shown below…
 
-### The URL of the Node.js API is: **10.24.220.230:5001/api/v1/chats**
+### The URL of the Node.js API is: **10.24.221.56:5001/api/v1/chats**
 
 ![NewProjectImage](../images/reuchat_architecture.drawio.png)
+Feel free to look at the code for the Node.js API in **api/** folder if you want!
 
 ## Task
 Your job will be to create a **user-friendly** C++ console application which will be able to accomplish two tasks:
