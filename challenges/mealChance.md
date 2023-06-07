@@ -1,6 +1,6 @@
 # Meal Chance
 ## Problem Statement
-The UDCC dining center on campus has employed a new policy. Instead of meal swipes, staff will flip a coin at the front of the dining center. The student will then guess the coin flip. If the student guesses correctly, they will be allowed to eat. If the coin lands on tails, the student will be turned away and starve that day. 
+The dining centers on campus has employed a new policy. Instead of meal swipes, staff will flip a coin at the front of the dining center. The student will then guess the coin flip. If the student guesses correctly, they will be allowed to eat. If the coin lands on tails, the student will be turned away and starve that day. 
 
 Write a program that simulates this new policy. The program should ask the user to guess heads or tails. If the user guesses correctly, the program should print out "You may eat." If the user guesses incorrectly, the program should print out "You may not eat."
 
