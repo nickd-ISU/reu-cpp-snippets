@@ -12,7 +12,7 @@ exports.create = function(req, res) {
             if (err) {
                 res.send(err);
             } else {
-                res.json({error:false,message:"Chat added successfully!",data:chat});
+                res.send("200");
             }
         });
     }
@@ -24,8 +24,12 @@ exports.findAll = function(req, res) {
         if (err) {
             res.send(err);
         } else {
+            var chats = [];
             console.log('res', chat);
-            res.send(chat);
+            for (var i = 0; i < chat.length; i++) {
+                chats.push(chat[i].chat);
+            }
+            res.send(chats.join(','));
         }
     });
 };
