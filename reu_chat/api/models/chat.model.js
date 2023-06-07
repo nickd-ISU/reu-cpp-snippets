@@ -12,7 +12,7 @@ Chat.create = function (newChat, result) {
             console.log("error: ", err);
             result(err, null);
         } else {
-            console.log(res.insertId);
+            console.log("Chat added ", "(", res.insertId, "): ", newChat.chat);
             result(null, res.insertId);
         }
     });
@@ -25,7 +25,6 @@ Chat.findAll = function (result) {
             result(null, err);
         }
         else{
-            console.log('chats : ', res);
             result(null, res);
         }
     });

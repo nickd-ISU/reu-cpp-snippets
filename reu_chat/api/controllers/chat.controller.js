@@ -20,12 +20,14 @@ exports.create = function(req, res) {
 
 exports.findAll = function(req, res) {
     Chat.findAll(function(err, chat) {
-        console.log('controller')
         if (err) {
             res.send(err);
         } else {
+            // Get ip from request
+            var ip = req.connection.remoteAddress;
+            console.log("Chats fetched from ", ip);
+
             var chats = [];
-            console.log('res', chat);
             for (var i = 0; i < chat.length; i++) {
                 chats.push(chat[i].chat);
             }
