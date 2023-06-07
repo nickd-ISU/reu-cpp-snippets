@@ -58,6 +58,31 @@ class Car {
         }
 };
 
+// Create a class called Rectangle with a constructor, private variables, and public methods
+class Rectangle {
+    public:
+        // constructor
+        Rectangle(int length, int width) {
+            this->length = length;
+            this->width = width;
+        }
+
+        // methods
+        int getArea() {
+            return length * width;
+        }
+
+        int getPerimeter() {
+            return 2 * (length + width);
+        }
+
+    // If we want to access these variables outside of the class,
+    // we need to use getters and setters
+    private:
+        int length;
+        int width;
+};
+
 int main() {
     // Create a person object
     Person person;
