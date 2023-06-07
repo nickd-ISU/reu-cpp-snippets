@@ -39,3 +39,7 @@ int main() {
     // Code goes here
 }
 ```
+
+## Running a Project
+1. If the project you want to run is not already highlighted in the **Solution Explorer** window, right click on the project name and select **Set as Startup Project**.
+3. Click the green **Start** button at the top of the screen.
