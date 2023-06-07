@@ -45,6 +45,13 @@ int main() {
         std::cout << "d is not positive" << std::endl;
     }
 
+    // create two variables x and y. if x is than y, print "x is greater than y"
+    int x = 5;
+    int y = 2;
+    if(x > y) {
+        std::cout << "x is greater than y" << std::endl;
+    }
+
     // if statement with arrays --------------------------------
     int e[5] = {1, 2, 3, 4, 5};
     if(e[0] == 1) {

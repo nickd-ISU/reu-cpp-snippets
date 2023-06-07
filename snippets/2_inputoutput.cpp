@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
     /*
     ----------------------------------------
@@ -11,11 +13,11 @@ int main() {
 
     // cout
     int x = 5;
-    std::cout << "Hello World!" << std::endl;
-    std::cout << "x = " << x << std::endl;
+    cout << "Hello World!" << endl;
+    cout << "x = " << x << endl;
 
     // cin
     int a;
-    std::cout << "Enter a number: "; // prompt user
-    std::cin >> a; // get user input and store in a
+    cout << "Enter a number: "; // prompt user
+    cin >> a; // get user input and store in a
 }

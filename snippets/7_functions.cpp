@@ -52,16 +52,6 @@ double timeToFall(double height, double gravity = 9.81) {
 
 // main is a special function that is called when the program starts!
 int main() {
-    int sum = add(1, 2); // call the add function and store the result in sum
-
-    int arr[] = {1, 2, 3, 4, 5}; // create an array
-    int size = sizeof(arr) / sizeof(arr[0]); // calculate the size of the array
-    int arraySum = sumArray(arr, size); // call the sumArray function and store the result in sum2
-
-    double t = timeToFall(10); // call the time function and store the result in t
-
-    // print the results
+    int sum = add(5, 8); // call the add function and store the result in sum
     cout << sum << endl;
-    cout << arraySum << endl;
-    cout << t << " seconds" << endl;
 }

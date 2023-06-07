@@ -18,7 +18,7 @@ int add(int a, int b) {
 int main() {
     int a = 7;
     int b = 3;
-    cout << add(num1, num2) << endl;
+    cout << add(a, b) << endl;
 }
 ```
 
