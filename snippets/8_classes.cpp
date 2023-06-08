@@ -5,10 +5,8 @@ using namespace std;
 /*
 ----------------------------------------
     classes are a way to group data and
-    functions together
-
-    classes are like blueprints for
-    objects
+    functions together into our own
+    custom data type!
 ----------------------------------------
 */
 
@@ -18,22 +16,29 @@ class Person {
     // and functions can be accessed
     // outside of the class
     public:
-        // variables
-        string name;
-        int age;
+        // constructor
+        Person(string name, int age) {
+            this->_name = name;
+            this->_age = age;
+        }
 
         // methods
         string getName() {
-            cout << name << endl;
+            cout << _name << endl;
         }
 
         int getAge() {
-            cout << age << endl;
+            cout << _age << endl;
         }
 
         void ageUp() {
-            age++;
+            _age++;
         }
+
+    private:
+        // attributes
+        string _name;
+        int _age;
 };
 
 // Create a class called Car with a constructor
@@ -76,28 +81,17 @@ class Rectangle {
             return 2 * (length + width);
         }
 
-    // If we want to access these variables outside of the class,
-    // we need to use getters and setters
     private:
+        // attributes
         int length;
         int width;
 };
 
 int main() {
-    // Create a person object
-    Person person;
+    // Create a rectangle object
+    Rectangle nicksRectangle = Rectangle(10, 5);
 
-    // Set the name and age of the person
-    person.name = "John";
-    person.age = 20;
-
-    // Call the getName and getAge methods
-    person.getName();
-    person.getAge();
-
-    // Call the ageUp method
-    person.ageUp();
-
-    // Call the getAge method again
-    person.getAge();
+    // Call the getArea and getPerimeter methods
+    int area = nicksRectangle.getArea();
+    int perimeter = nicksRectangle.getPerimeter();
 }
