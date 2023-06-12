@@ -2,11 +2,11 @@
 Use this repository to refer back to what we learned in the lab. You can copy and paste code from these files as a starting point for your mini assignments.
 
 **/snippets** -> contains code snippets from what we learned in the lab lectures  
-**/challenges** -> contains extra challenges for you to work on  
+**/challenges** -> contains coding challenges 
 **/images** -> Contains local images used in Readme (disregard this folder)
 
-## 🚨 Extra Challenges 📝
-In the **/challenges** folder, I've added some supplemental challenges for you to work on. These are not required, but they will help you practice the concepts we've learned in the lab. Use code from the **/snippets** folder to help you solve the problems!
+## 🚨 Challenges 📝
+In the **/challenges** folder, you will find small coding challenges to help you practice the concepts we've learned in the lab. You can use code from the **/snippets** folder to help you solve the problems!
 
 Add a new project to your solution for each new challenge.
 
