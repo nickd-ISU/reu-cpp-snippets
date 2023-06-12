@@ -5,7 +5,7 @@ using namespace std;
 ----------------------------------------
     inheritance is a way to create a
     subclass class that inherits all of 
-    the attributes and methods from
+    the public attributes and methods from
     another class.
 ----------------------------------------
 */
